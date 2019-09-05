@@ -1,0 +1,3 @@
+. ./def.sh
+
+ssh $CORE
