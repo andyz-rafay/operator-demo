@@ -7,12 +7,11 @@ metadata:
 spec:
   ports:
    - port: 8000
-     targetPort: : 8000
+     targetPort: 8000
   selector:
    app: cluster-scheduler
 
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -22,12 +21,11 @@ metadata:
 spec:
   ports:
    - port: 5000
-     targetPort: : 5000
+     targetPort: 5000
   selector:
    app: cluster-scheduler
 
 ---
-
 apiVersion: v1
 kind: Service
 metadata:
@@ -37,7 +35,7 @@ metadata:
 spec:
   ports:
    - port: 5002
-     targetPort: : 5002
+     targetPort: 5002
   selector:
    app: cluster-scheduler
 
