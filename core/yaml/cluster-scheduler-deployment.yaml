@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: cluster-scheduler
-        image: registry.dev.rafay-edge.net:5000/azhou/cluster-scheduler:master-20190905-2145
+        image: registry.dev.rafay-edge.net:5000/azhou/cluster-scheduler:master-20190905-2355
         imagePullPolicy: "Always"
       imagePullSecrets:
         - name: dev-registry-creds

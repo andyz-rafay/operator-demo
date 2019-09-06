@@ -12,3 +12,6 @@ kubectl -n $NS apply -f yaml/postgres-service.yaml
 # cluster scheduler
 kubectl -n $NS apply -f yaml/cluster-scheduler-deployment.yaml
 kubectl -n $NS apply -f yaml/cluster-scheduler-service.yaml
+
+# Install busybox for debugging
+kubectl -n $NS apply -f yaml/busybox.yaml
